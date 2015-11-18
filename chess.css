@@ -20,7 +20,7 @@ html {
 	Second: Board stand, coordinates, and piece graveyards
 	*/
 	background: 
-		url(images/png/ui/board-only.png) no-repeat center center fixed, url(images/png/ui/stand-only.png) no-repeat center center fixed; 
+		url('assets/png/ui/board-only.png') no-repeat center center fixed, url('assets/png/ui/stand-only.png') no-repeat center center fixed; 
 	-webkit-background-size: 50%, cover;
 	-moz-background-size: 50%, cover;
 	-o-background-size: 50%, cover;
