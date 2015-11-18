@@ -1,0 +1,48 @@
+<!-- 
+Copyright 2014 Google Inc. All Rights Reserved.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+ -->
+<!--
+This shows a very simple receiver to help you get code up and running. You can
+think of this as your first step. It is not compatible with our UX guidelines.
+It is useful for learning the basic concepts of the system.
+-->
+ 
+<!DOCTYPE html>
+<html>
+  <head>
+  <!-- <link rel="stylesheet" type="text/css" href="chess.css"/> -->
+  <script src="assets/Snap.svg-0.4.1/dist/snap.svg-min.js"> </script>
+  <!-- <script src="snap.js"> </script> --> 
+    <title>Chess Cast</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+<script type="text/javascript">
+
+  var s = Snap();
+
+  // import board and main UI
+  Snap.load("stand-only.svg", function(f) {
+    s.append(f);
+  } );
+
+  // bigCircle = s.circle(100, 100, 50);
+  // bigCircle.attr ({
+  //   fill: "#53559a",
+  //   stroke: "#fff",
+  //   strokewidth: 5
+  // });
+</script>
+  </body>
+</html>
